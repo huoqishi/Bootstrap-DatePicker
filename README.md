@@ -12,10 +12,10 @@
   1. 下载bootstrap-datepicker
     + 使用npm下载: `npm install bootstrap-datepicker`
 
-  2. 由于它依赖于jquery和bootstrap，所以还需要下载jquery和bootstrap
+  2. 由于它依赖于jquery和bootstrap，所以还需要下载jquery和bootstrap
     + `npm install jquery bootstrap`
 
-  3. 新建html引入`jquery`的js,和`bootstrap`的css文件,和bootstrap-datepicker对应的js和css
+  3. 新建html引入`jquery`的js,和`bootstrap`的css文件,和bootstrap-datepicker对应的js和css
 
     ```html
     <!DOCTYPE html>
