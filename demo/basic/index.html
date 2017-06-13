@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+  <link href="./node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.css">
+  <title>bootstrap-datepicker</title>
+</head>
+<body>
+  `<input id="datepicker" >`
+</body>
+</html>
+<script src="./node_modules/jquery/dist/jquery.js"></script>
+<script src="./node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.js"></script>
+<script>
+  $('#datepicker').datepicker({
+    // 下面列出的属性都是可选的,不写也行
+    // format: 'yyyy-mm-dd', // 指展示的日期的格式 2017-12-3, yyyy年mm月dd日  2017年12月3日
+    // todayHighlight: true, // 默认为false, 为true时，弹出框中会显示当前日期。
+    // defaultViewDate: { year: 1977, month: 4, day: 25 }, // 设置弹出框中默认会显示的时间, 会使得todayHighlight: true 失效
+    // datesDisabled: ['06/06/2017', '06/21/2017'] // 设置哪些日期不可以选择,这里就是禁止选择6日与21日
+  })
+</script>
